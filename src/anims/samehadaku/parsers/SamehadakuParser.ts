@@ -377,7 +377,7 @@ export default class SamehadakuParser extends SamehadakuParserExtra {
             samehadakuUrl: card.samehadakuUrl,
           });
         });
-
+bro asuu
         data.title = $(".infoanime h1.entry-title").text().replace("Nonton Anime", "").trim();
         data.poster = this.str($(".infoanime .thumb img").attr("src"));
         data.score.value = $(".rating-area [itemprop=ratingValue]").text();
